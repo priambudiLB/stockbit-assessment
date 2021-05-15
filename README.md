@@ -1,7 +1,11 @@
-# stockbit assessment movie app 
+# stockbit assessment movie app
 [![codecov](https://codecov.io/gh/priambudiLB/stockbit-assessment/branch/main/graph/badge.svg?token=Qb2CT5mSJo)](https://codecov.io/gh/priambudiLB/stockbit-assessment)
 
-Priambudi Lintang Bagaskara
+by Priambudi Lintang Bagaskara (Bagas)
+
+Note:
+1. Logic Test Answer is in assessment.js
+2. Deployed to https://stockbit-assessment.vercel.app/
 ## Installation
 
 ```sh
