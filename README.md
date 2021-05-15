@@ -1,5 +1,5 @@
 # stockbit assessment movie app 
-[![codecov](https://codecov.io/gh/priambudiLB/stockbit-assessment/branch/main/graph/badge.svg?token=Bus4EalBr8)](https://codecov.io/gh/priambudiLB/stockbit-assessment)
+[![codecov](https://codecov.io/gh/priambudiLB/stockbit-assessment/branch/main/graph/badge.svg?token=Qb2CT5mSJo)](https://codecov.io/gh/priambudiLB/stockbit-assessment)
 
 Priambudi Lintang Bagaskara
 ## Installation
