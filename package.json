@@ -1,0 +1,65 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fs-extra": "^7.0.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.2.0",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "npm run test -- --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "react-test-renderer": "^17.0.2",
+    "redux-mock-store": "^1.5.4",
+    "serve": "^11.3.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!src/pages/**/*",
+      "!src/routes/**/*",
+      "!src/redux/**/*",
+      "!src/api/**/*",
+      "!src/serviceWorker.js",
+      "!src/index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    }
+  }
+}
